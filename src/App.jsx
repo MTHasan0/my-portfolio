@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useRoutes } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
+import About from './Page/About/About'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div>
       <Navbar></Navbar>
-      <Outlet></Outlet>
+      <Outlet> </Outlet>
       <Footer></Footer>
 
     </div>

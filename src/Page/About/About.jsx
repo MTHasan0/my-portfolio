@@ -1,9 +1,14 @@
 import React from 'react';
 
+import SliderMotion from '../../Components/SliderMotion/SliderMotion';
+
 const About = () => {
     return (
         <div>
-            <p>this is about</p>
+            <SliderMotion></SliderMotion>
+            <div><p>This is About</p></div>
+
+
         </div>
     );
 };

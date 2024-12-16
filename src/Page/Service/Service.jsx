@@ -1,9 +1,12 @@
 import React from 'react';
+import SliderMotion from '../../Components/SliderMotion/SliderMotion';
 
 const Service = () => {
     return (
         <div>
-            This is service
+            <SliderMotion></SliderMotion>
+            <p>This is service</p>
+
         </div>
     );
 };
