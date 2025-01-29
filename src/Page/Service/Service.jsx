@@ -5,7 +5,7 @@ const Service = () => {
     return (
         <div>
             <SliderMotion></SliderMotion>
-            <p>This is service</p>
+            <p className=' text-white'>This is service</p>
 
         </div>
     );

@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div>
             <SliderMotion></SliderMotion>
-            <p>This is Contact</p>
+            <p className=' text-white'>This is Contact</p>
         </div>
     );
 };

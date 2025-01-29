@@ -37,13 +37,17 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact></Contact>,
       },
+      {
+        path: '/work',
+        element: <Contact></Contact>,
+      },
     ]
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div className=' crimsonFont mx-auto absolute inset-0 -z-10 h-full items-center [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]'><RouterProvider router={router} /></div>
+    <div className=' '><RouterProvider router={router} /></div>
   </StrictMode>,
 )
 

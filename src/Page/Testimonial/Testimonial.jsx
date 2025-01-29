@@ -5,7 +5,7 @@ const Testimonial = () => {
     return (
         <div>
             <SliderMotion></SliderMotion>
-            <p>This is testimonial</p>
+            <p className=' text-white'>This is testimonial</p>
         </div>
     );
 };
